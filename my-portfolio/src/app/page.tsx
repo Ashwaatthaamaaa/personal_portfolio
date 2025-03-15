@@ -35,7 +35,7 @@ export default function Portfolio() {
             </div>
             <div className="flex gap-4 pt-6">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/Ashwaatthaamaaa"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
@@ -44,7 +44,7 @@ export default function Portfolio() {
                 <span className="sr-only">GitHub</span>
               </a>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/sarthak-kumar-b976aa153/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
@@ -53,7 +53,7 @@ export default function Portfolio() {
                 <span className="sr-only">LinkedIn</span>
               </a>
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:sarthakk145@gmail.com"
                 className="text-muted-foreground hover:text-foreground transition-colors"
               >
                 <Mail size={24} />
@@ -101,7 +101,6 @@ export default function Portfolio() {
                 <Badge>Python</Badge>
                 <Badge>Cloud Computing</Badge>
                 <Badge>Algorithms</Badge>
-                <Badge>System Design</Badge>
               </div>
             </div>
           </div>
@@ -116,22 +115,22 @@ export default function Portfolio() {
           </h2>
           <Tabs defaultValue="all" className="w-full">
             <div className="flex justify-center mb-8">
-              <TabsList>
-                {/* <TabsTrigger value="all">All</TabsTrigger>
-                {/* <TabsTrigger value="web">Web</TabsTrigger>
+              {/* <TabsList>
+                <TabsTrigger value="all">All</TabsTrigger>
+                <TabsTrigger value="web">Web</TabsTrigger>
                 <TabsTrigger value="ai">AI/ML</TabsTrigger>
-                <TabsTrigger value="other">Other</TabsTrigger> */}
-              </TabsList>
+                <TabsTrigger value="other">Other</TabsTrigger>
+              </TabsList> */}
             </div>
             <TabsContent value="all" className="space-y-4">
-              <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+              <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 justify-center">
                 {/* Project Card 1 */}
                 <Card>
                   <CardHeader className="p-0">
                     <div className="h-48 w-full bg-muted relative overflow-hidden">
                       <img 
                         src="/api/placeholder/400/320"
-                        alt="Project 1"
+                        alt=""
                         className="w-full h-full object-cover"
                       />
                     </div>
@@ -351,7 +350,7 @@ export default function Portfolio() {
         <div className="container px-4 md:px-6 mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-muted-foreground">
-              &copy; {new Date().getFullYear()} Your Name. All rights reserved.
+              &copy; {new Date().getFullYear()} Sarthak Kumar. All rights reserved.
             </p>
             <div className="flex space-x-4 mt-4 md:mt-0">
               <a
